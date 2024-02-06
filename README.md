@@ -49,6 +49,7 @@ Is it possible to use R or just python?
 - Runs off of a single GitHub repository (private)
 - Provides exam functionality 
 - Can build solution and rubric into manually graded questions for graders
+- Instant feedback for autograded questions
 
 ## Potential Issues:
 - LTI 1.3 support is in early beta, potential bugs and missing features (documentation is light, just started development Nov 2023) 
@@ -58,3 +59,4 @@ Is it possible to use R or just python?
 - May have to split coding and manual grading questions if using Workspaces
 - Steeper learning curve for developing/troubleshooting assignments/questions (each need info.json, question.html, server.py)
 - No exam anti-cheat 
+- Documentation for self-hosting is light overall and no support available
