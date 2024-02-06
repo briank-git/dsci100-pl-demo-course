@@ -5,7 +5,7 @@
 ## Q & A
 
 Could we still do jupyter notebooks? How hard would it be to rewrite test code?
-- PL "Workspaces" (Docker container) can run JupyterLab with notebooks 
+- PL "Workspaces" (Docker containers) can run JupyterLab with notebooks 
 - Can choose which files e.g. notebooks are pulled from the Workspace for grading
 - If using Workspaces, will need to write custom grading scripts. Possibly just run nbgrader on collected notebook like we do already, will need to configure nbgrader and format grade information/feedback after it runs so that PL can show it to the student.
 
@@ -30,7 +30,7 @@ How would assignments work?
 - Autograding done with custom grading scripts
 - Manual grading done through PrairieLearn UI
 - Late reg extensions will have to be done in PrairieLearn (pull reg dates from Canvas and then input to PrairieLearn?)
-- Total size of returned feedback cannot exceed 1MB in size e.g. plots
+- Total size of returned feedback cannot exceed 1MB in size e.g. plots (some feedback files ~50MB in size)
 - If using CWL log in, grade upload is done with CSV at end of term. Supposedly LTI automatic grade upload to Canvas is possible but in early beta. Also applies to exams.
 
 Can we control software environment with docker like we do now? 
@@ -54,9 +54,12 @@ Is it possible to use R or just python?
 ## Potential Issues:
 - LTI 1.3 support is in early beta, potential bugs and missing features (documentation is light, just started development Nov 2023) 
 	• Currently CWL authentication is possible through Shibboleth? (SAML2), but no automatic grade upload, grade upload is done by CSV at end of term
+- Integrating CWL login if self-hosted could be a [long process](https://confluence.it.ubc.ca/display/SH3E/Integration+Process+Steps)
 - Rework automatic late reg extensions, need Canvas reg dates to update due dates in PL (probably needs a script)
-- Complex course directory structure and multiple config files
+- Complex course directory structure with multiple config files
 - May have to split coding and manual grading questions if using Workspaces
-- Steeper learning curve for developing/troubleshooting assignments/questions (each need info.json, question.html, server.py)
+- Feedback returned in PL limited to 1MB (some feedback files >50MB)
+- Steeper learning curve for developing/troubleshooting assignments/questions (each question needs an info.json, question.html, server.py)
+	- Need to learn [custom PL HTML elements](https://prairielearn.readthedocs.io/en/latest/elements/) for creating questions
 - No exam anti-cheat 
-- Documentation for self-hosting is light overall and no support available
+- Documentation for self-hosting is light overall and no support is available
