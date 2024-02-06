@@ -53,7 +53,7 @@ Is it possible to use R or just python?
 
 ## Potential Issues:
 - LTI 1.3 support is in early beta, potential bugs and missing features (documentation is light, just started development Nov 2023) 
-	• Currently CWL authentication is possible through Shibboleth? (SAML2), but no automatic grade upload, grade upload is done by CSV at end of term
+	- Currently CWL authentication is possible through Shibboleth? (SAML2), but no automatic grade upload, grade upload is done by CSV at end of term
 - Integrating CWL login if self-hosted could be a [long process](https://confluence.it.ubc.ca/display/SH3E/Integration+Process+Steps)
 - Rework automatic late reg extensions, need Canvas reg dates to update due dates in PL (probably needs a script)
 - Complex course directory structure with multiple config files
