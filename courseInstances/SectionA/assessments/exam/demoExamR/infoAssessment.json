@@ -28,46 +28,11 @@
       {
           "title": "Auto-graded questions",
           "questions": [
-              {
-                  "numberChoose": 1,
-                  "points": 5,
-                  "alternatives": [
-                      {"id": "template/checkbox"},
-                      {"id": "template/multipleChoiceMultipleCorrect"}
-                  ]
-              },
-              {
-                  "numberChoose": 1,
-                  "points": [5,1],
-                  "alternatives": [
-                      {"id": "template/multipleChoiceWithFigure"},
-                      {"id": "template/multipleChoiceSingleCorrect"}
-                  ]
-              },
-              {
-                  "numberChoose": 1,
-                  "points": 5,
-                  "alternatives": [
-                      {"id": "template/multipleChoiceTrueFalseFromList"},
-                      {"id": "template/multipleChoiceFromList"}
-                  ]
-              },
-              {
-                  "numberChoose": 1,
-                  "points": [5,2],
-                  "alternatives": [
-                      {"id": "demo/fixedCheckbox"},
-                      {"id": "demo/randomSymbolic"}
-                  ]
-              }
           ]
       },
       {
           "title": "Manually graded questions",
           "questions": [
-              {"id": "demo/manualGrade/codeUpload",          "autoPoints": [10, 7, 4], "manualPoints": 5},
-              {"id": "demo/fileDownloadUpload",              "points": [10]},
-              {"id": "demo/markdownEditorLivePreview",       "points": [5]}
           ]
       }
     ],
