@@ -25,6 +25,15 @@ How would exams work?
 - If accidentally closed, students can reopen and continue
 - Can configure so that feedback and grade is hidden after exam
 
+Can an exam be run with LockDown browser? How will proctoring work?
+- LockdownBrowser offically only supports Canvas Quizzes
+- A workaround is to create a Canvas quiz with a question link that redirects a student's LockdownBrowser to PrairieLearn. Would need to allow LockdownBrowser to [access external web domains](https://support.respondus.com/hc/en-us/articles/4409604275867-Accessing-external-web-domains-in-LockDown-Browser).
+	- This method does not appear to be a recommended use case _"Please be aware that instructors should not try to specify the domain of the LMS or a domain for another learning management system. Specifying the domain of the LMS itself or permitting a student to log in to one LMS, then access a second LMS to take an exam, will result in errors and is unsupported."_
+	- Appears to be for use with e-books and other single page resources
+	- Would need to test if LockdownBrowser allows PL to function properly
+- Some MDS courses use CBTF (Computer Based Testing Facilities) which restrict students to certain domains, students also scan their UBC cards for access. [Example](https://ubc-mds.github.io/resources_pages/quiz/)
+	- Space is limited to two rooms under the CS building. Not enough space for DSCI 100.
+
 How would assignments work?
 - Likely have to move manually graded questions out of notebook into their own individual questions if using Workspaces (TAs can't use nbgrader UI anymore)
 - Autograding done with custom grading scripts
