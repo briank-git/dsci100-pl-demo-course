@@ -1,22 +1,18 @@
 {
     "uuid": "fcc5282c-a752-4146-9bd6-ee19aac53fc5",
-    "name": "XC 101",
-    "title": "Example Course",
+    "name": "DSCI 100 Demo",
+    "title": "DSCI Demo Course",
     "options": {
         "useNewQuestionRenderer": true
     },
     "comment": "Add additional assessment sets here. Default ones are listed here: https://prairielearn.readthedocs.io/en/latest/course/#assessment-sets.",
     "assessmentSets": [
-      {"abbreviation": "W", "name": "Workshop", "heading": "Workshops and Tutorials", "color": "gray1"},
-      {"abbreviation": "C", "name": "Collection", "heading": "Collection of example questions", "color": "purple1"},
-      {"abbreviation": "L", "name": "Lecture", "heading": "Pre-Lecture Activities", "color": "blue1"},
-      {"abbreviation": "G", "name": "GroupActivity", "heading": "Group Activities", "color": "pink1"}
-
+      {"abbreviation": "E", "name": "Exam", "heading": "Exams", "color": "gray1"},
+      {"abbreviation": "T", "name": "Tutorial", "heading": "Tutorials", "color": "purple1"},
+      {"abbreviation": "W", "name": "Worksheet", "heading": "Worksheets", "color": "blue1"}
     ],
     "assessmentModules": [
-        {"name": "IntroModule", "heading": "Introductory Module"},
-        {"name": "AnotherModule", "heading": "Another Module"},
-        {"name": "FinalModule", "heading": "Final Module"}
+        {"name": "MainModule", "heading": "Main Module"}
     ],
     "topics": [
         {"name": "Template", "color": "orange1", "description": "Templates to copy as the start for a new question."},
