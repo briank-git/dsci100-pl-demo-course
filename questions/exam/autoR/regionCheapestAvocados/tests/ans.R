@@ -1,6 +1,6 @@
 library(tidyverse)
 
-avocado <- read_csv("/grade/serverFilesCourse/avocado_prices.csv")
+avocado <- read_csv("/grade/serverFilesCourse/dataR/avocado_prices.csv")
 
 cheapest <- avocado |>
     filter(yr == 2018) |> 
