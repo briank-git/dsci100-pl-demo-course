@@ -1,3 +1,5 @@
+library(tidyverse)
+
 avocado <- read_csv("/grade/serverFilesCourse/avocado_prices.csv")
 
 cheapest <- avocado |>
