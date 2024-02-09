@@ -1,4 +1,4 @@
-## @title Contains correct type?
+## @title Contains correct data?
 ## @score 1
 
 library(tinytest)                       # load testrunner
@@ -11,4 +11,4 @@ plr::source_and_eval_safe_with_hiding("/grade/student/student.R",
                                       "ag",
                                       "/grade/tests/ans.R")
 
-expect_equal(digest(cheapest$region[0]), "5152ac13bdd09110d9ee9c169a3d9237")
+expect_equal(digest(int_round(unlist(select(cheapest, -region)), 2)), 'bd15e8575c605a44f323d2c67cbfd7f1')
