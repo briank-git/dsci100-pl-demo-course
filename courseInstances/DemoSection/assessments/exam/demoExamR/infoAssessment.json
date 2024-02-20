@@ -3,13 +3,13 @@
     "type": "Exam",
     "title": "R exam including autograded and manually graded questions",
     "set": "Exam",
-    "number": "4",
+    "number": "1",
     "allowAccess": [
         {
             "comment": "students will have access to this timed exam, but will not be able to see their scores or questions once the exam is completed",
             "mode": "Public",
             "credit": 100,
-            "timeLimitMin": 3,
+            "timeLimitMin": 60,
             "startDate": "2021-01-01T00:00:01",
             "endDate": "2323-11-07T23:59:59",
             "showClosedAssessment": false,
