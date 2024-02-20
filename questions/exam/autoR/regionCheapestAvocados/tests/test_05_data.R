@@ -6,10 +6,10 @@ using(ttdo)                             # enable its 'diffobj' extension
 library(digest)
 
 ## Get student's response
-try(plr::source_and_eval_safe_with_hiding("/grade/student/student.R",
-                                          NULL,
-                                          "ag",
-                                          "/grade/tests/ans.R"))
+plr::source_and_eval_safe_with_hiding("/grade/student/student.R",
+                                      NULL,
+                                      "ag",
+                                      "/grade/tests/ans.R")
 
 int_round <- function(x, digits){
     x = x*10^digits
