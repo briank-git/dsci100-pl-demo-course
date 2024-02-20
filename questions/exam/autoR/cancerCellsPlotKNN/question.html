@@ -1,0 +1,34 @@
+<pl-question-panel>
+    <p>
+        In the figure below, smoothness and area are two features of cancer cells that are being used to help diagnose if a tumor is Benign (blue) or Malignant (yellow). The diagnosis of the red point that is circled is unknown.
+    </p>
+
+    <p>
+        What do you expect to happen if we apply K-nearest neighbors (KNN) classification to the red point if  
+        K = 3. 
+    </p>
+    
+    <pl-figure file-name="cancerCellsPlotKNN.png" width="250px"></pl-figure>
+    </pl-question-panel>
+    
+    <pl-question-panel>
+      <hr>
+    </pl-question-panel>
+    
+    <pl-question-panel>
+        <p>Choose the best answer available.</p>
+    </pl-question-panel>
+    <pl-multiple-choice answers-name="t" none-of-the-above="true" weight="1">
+      <pl-answer correct="false">
+        The prediction will be malignant because visually, two of the three closest points are also malignant.
+      </pl-answer>
+      <pl-answer correct="true">
+        It is challenging to tell, but the three points with the closest area will determine the prediction because the data have not been normalized.
+      </pl-answer>
+      <pl-answer correct="false">
+        It is challenging to tell, but the three points with the closest smoothness will determine the prediction because the data have not been normalized.
+      </pl-answer>
+      <pl-answer correct="false">
+        The prediction will be benign because visually the closest point is benign.
+      </pl-answer>
+    </pl-multiple-choice>
