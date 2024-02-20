@@ -1,7 +1,7 @@
 {
     "uuid": "9abd6cc8-9deb-4fd8-ac1f-782130f69b85",
     "type": "Exam",
-    "title": "Exam including autograded and manually graded questions",
+    "title": "R exam including autograded and manually graded questions",
     "set": "Exam",
     "number": "4",
     "allowAccess": [
@@ -28,11 +28,15 @@
       {
           "title": "Auto-graded questions",
           "questions": [
+            {"id": "exam/autoR/cancerCellsPlotKNN", "points":[3,1]},
+            {"id": "exam/autoR/regionCheapestAvocados", "points":[5,4,3,2,1]}
           ]
       },
       {
           "title": "Manually graded questions",
           "questions": [
+            {"id": "exam/manualR/describeGitAndGitHub", "points":3},
+            {"id": "exam/manualR/hockeyBoxscores", "points": 1}
           ]
       }
     ],

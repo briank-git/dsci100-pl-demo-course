@@ -1,7 +1,7 @@
 {
     "uuid": "8ce208e4-1942-450a-a1ce-1b681a4c915f",
     "type": "Exam",
-    "title": "Exam including autograded and manually graded questions",
+    "title": "Python exam including autograded and manually graded questions",
     "set": "Exam",
     "number": "4",
     "allowAccess": [
