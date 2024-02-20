@@ -3,5 +3,6 @@
     "title": "Multi-answer MC with coverage grading scheme",
     "topic": "Autograder",
     "tags": [],
+    "singleVariant": true,
     "type": "v3"
 }
