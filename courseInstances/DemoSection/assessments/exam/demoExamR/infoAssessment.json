@@ -4,6 +4,7 @@
     "title": "R exam including autograded and manually graded questions",
     "set": "Exam",
     "number": "1",
+    "shuffleQuestions": false,
     "allowAccess": [
         {
             "comment": "students will have access to this timed exam, but will not be able to see their scores or questions once the exam is completed",
