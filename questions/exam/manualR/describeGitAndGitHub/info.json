@@ -4,5 +4,6 @@
     "topic": "Manual",
     "tags": [],
     "singleVariant": true,
-    "type": "v3"
+    "type": "v3",
+    "gradingMethod": "Manual"
 }
