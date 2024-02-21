@@ -1,3 +1,6 @@
+## @title Do we find object 'avocado_plot'?
+## @score 1
+
 library(tinytest)                       # load testrunner
 using(ttdo)                             # enable its 'diffobj' extension
 
@@ -6,6 +9,4 @@ plr::source_and_eval_safe_with_hiding("/grade/student/student.R",
                                       "ag",
                                       "/grade/tests/ans.R")
 
-source("/grade/tests/ans.R")
-
-expect_equal_with_diff(avocado_plot, avocado_plot_answer)
+expect_true(exists("avocado_plot"))

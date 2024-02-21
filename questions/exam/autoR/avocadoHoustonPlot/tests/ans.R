@@ -2,7 +2,7 @@ library(tidyverse)
 
 avocado <- read_csv("/grade/serverFilesCourse/dataR/avocado_prices.csv")
 
-avocado_plot_answer <- avocado |>
+avocado_plot <- avocado |>
     mutate(total_volume = small_hass_volume + large_hass_volume + extra_l_hass_volume) |>
     filter(region == "Houston") |>
     ggplot(aes(x = total_volume, y = average_price)) + 
