@@ -1,0 +1,16 @@
+{
+    "uuid": "89710cb4-279c-4e16-a35f-1198f07832a7",
+    "title": "Find the region with the cheapest avocados",
+    "topic": "Autograder",
+    "tags": [],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "serverFilesCourse": ["dataR/avocado_prices.csv"],
+        "timeout": 20
+    }
+}

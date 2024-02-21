@@ -1,0 +1,27 @@
+<pl-question-panel>
+
+    <p>
+        Now find the region with the cheapest avocados in 2018. To do this, calculate the average price for each region. Your answer should be the row from a data frame with the lowest average price. The data frame you create should have two columns, one named region that has the region, and the other that contains the average price for that region.</br>
+    </br>
+        Assign your answer to an object called cheapest.</br>
+        
+        Hint: You can use the function slice to provide a row index (or range of row indices) to numerically subset rows from a data frame. For example, to subset the 5th row of a data frame you would type:</br>
+    </br>
+    </p>
+
+    <pre>
+        dataframe |>
+        slice(5)
+    </pre>
+
+    <p>Preview of avocado_prices.csv</p>
+    <pl-dataframe params-name="df" show-index="false" show-dimensions="false" digits="4"></pl-dataframe>
+    
+    <pl-file-editor file-name="student.py" ace-mode="ace/mode/python" source-file-name="demo.py"></pl-file-editor>
+    
+    </pl-question-panel>
+    
+    <pl-submission-panel>
+      <pl-file-preview></pl-file-preview>
+      <pl-external-grader-results></pl-external-grader-results>
+    </pl-submission-panel>
