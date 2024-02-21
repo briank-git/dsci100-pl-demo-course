@@ -1,0 +1,16 @@
+{
+    "uuid": "ecd36124-dcbe-4fed-958f-5f43b0cf2fba",
+    "title": "Plot total volume against average price",
+    "topic": "Autograder",
+    "tags": [],
+    "type": "v3",
+    "singleVariant": true,
+    "gradingMethod": "External",
+    "externalGradingOptions": {
+        "enabled": true,
+        "image": "prairielearn/grader-python",
+        "entrypoint": "/python_autograder/run.sh",
+        "serverFilesCourse": ["dataR/avocado_prices.csv"],
+        "timeout": 20
+    }
+}

@@ -1,0 +1,27 @@
+<pl-question-panel>
+    <p>Now we will plot the total volume against average price for the cheapest region and all years. 
+       First, you need to mutate the data frame such that total_volume is equal to the addition of all three volume columns. 
+       Next, filter the dataset using the cheapest region "Houston". 
+       Finally, you will have the data necessary to create a scatter plot with:</p>
+
+    <pre>
+        x = total_volume
+        y = average_price   
+    </pre>
+
+    <p>Preview of avocado_prices.csv</p>
+    <pl-dataframe params-name="df" show-index="false" show-dimensions="false" digits="4"></pl-dataframe>
+
+    <pl-external-grader-variables params-name="names_for_user" empty="true"></pl-external-grader-variables>
+    <p>Your code snippet should define the following variables:</p>
+    <pl-external-grader-variables params-name="names_from_user">
+        <pl-variable name="avocado_plot" type="Pandas DataFrame"></pl-variable>
+    </pl-external-grader-variables>
+
+    <pl-file-editor file-name="user_code.py" ace-mode="ace/mode/python" source-file-name="demo.py"></pl-file-editor>
+</pl-question-panel>
+
+<pl-submission-panel>
+    <pl-file-preview></pl-file-preview>
+    <pl-external-grader-results></pl-external-grader-results>
+</pl-submission-panel>
