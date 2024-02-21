@@ -16,6 +16,10 @@
 
     <p>Preview of avocado_prices.csv</p>
     <pl-dataframe params-name="df" show-index="false" show-dimensions="false" digits="4"></pl-dataframe>
+
+    <pl-external-grader-variables params-name="names_from_user">
+        <pl-variable name="cheapest" type="Pandas DataFrame"></pl-variable>
+    </pl-external-grader-variables>
     
     <pl-file-editor file-name="user_code.py" ace-mode="ace/mode/python" source-file-name="demo.py"></pl-file-editor>
     
