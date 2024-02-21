@@ -7,7 +7,7 @@ class Test(PLTestCaseWithPlot):
     @name("avocado_plot")
     def test_0(self):
         if Feedback.check_plot(
-            "avocado_plot", self.ref.plot, self.st.plot, check_axes_scale="xy"
+            "avocado_plot", self.ref.avocado_plot, self.st.avocado_plot, check_axes_scale="xy"
         ):
             Feedback.set_score(1)
         else:
