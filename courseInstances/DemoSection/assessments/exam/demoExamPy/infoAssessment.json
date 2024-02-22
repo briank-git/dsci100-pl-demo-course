@@ -28,11 +28,17 @@
       {
           "title": "Auto-graded questions",
           "questions": [
+            {"id": "exam/auto/cancerCellsPlotKNN", "points":[3,1]},
+            {"id": "exam/autoR/regionCheapestAvocados", "points":[5,5,5,5,5]},
+            {"id": "exam/autoR/avocadoHoustonPlot", "points": [3,3,3,3,3]},
+            {"id": "exam/auto/sampleSizeN", "points":2}
           ]
       },
       {
           "title": "Manually graded questions",
           "questions": [
+            {"id": "exam/manual/describeGitAndGitHub", "points":3},
+            {"id": "exam/manual/hockeyBoxscores", "points": 1}
           ]
       }
     ],
