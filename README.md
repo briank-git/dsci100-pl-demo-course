@@ -72,3 +72,13 @@ Is it possible to use R or just python?
 	- Need to learn [custom PL HTML elements](https://prairielearn.readthedocs.io/en/latest/elements/) for creating questions
 - No exam anti-cheat 
 - Documentation for self-hosting is light overall and no support is available
+
+## Demo Exam Notes
+- Lockdown Browser seems to work when a link to PL is embedded in a LDB enabled Canvas quiz which points directly at the demo exam without any extra redirects. If students have to be redirected to login through UBC, it might throw an error and close itself.
+	- The error: ```Lockdown Browser does not support switching from one learning system to another in a single session...```
+- Built in R autograder does not output plots in feedback natively
+- Built in Python autograder only natively supports matplotlib plots and does not output Altair plots in feedback
+- Returned error output from R autograder can be cryptic when it's not able to run student code to completion
+- Otherwise writing autograder tests in PrairieLearn is relatively straightforward and similar to tests in current worksheets and tutorials
+- Appears that manual grading is done by picking a submission from a question's manual grading queue, one queue per manual graded question
+- Able to easily share questions that are language agnostic between Python and R exams
