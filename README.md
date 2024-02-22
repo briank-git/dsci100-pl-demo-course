@@ -78,6 +78,7 @@ Is it possible to use R or just python?
 	- The error: ```Lockdown Browser does not support switching from one learning system to another in a single session...```
 - Built in R autograder does not output plots in feedback natively
 - Built in Python autograder only natively supports matplotlib plots and does not output Altair plots in feedback
+- R autograder only outputs one line of stderr if it encounters an error when running student code (no stack trace)
 - Otherwise writing autograder tests in PrairieLearn is relatively straightforward and similar to tests in current worksheets and tutorials
 - Appears that manual grading is done by picking a submission from a question's manual grading queue, one queue per manual graded question
 - Able to easily share questions that are language agnostic between Python and R exams
