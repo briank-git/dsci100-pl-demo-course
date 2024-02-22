@@ -8,7 +8,7 @@
     "gradingMethod": "External",
     "externalGradingOptions": {
         "enabled": true,
-        "image": "prairielearn/grader-python",
+        "image": "grader-python:altair",
         "entrypoint": "/python_autograder/run.sh",
         "serverFilesCourse": ["dataR/avocado_prices.csv"],
         "timeout": 20
