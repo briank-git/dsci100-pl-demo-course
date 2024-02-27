@@ -6,8 +6,9 @@
     "type": "v3",
     "singleVariant": true,
     "workspaceOptions": {
-        "image": "ubcdsci/r-dsci-100:9b29d51bb202",
+        "image": "prairielearn/workspace-jupyterlab",
         "port": 8080,
-        "home": "/home/jovyan/work"
+        "home": "/home/jovyan",
+        "args": "--auth none"
     }
 }
