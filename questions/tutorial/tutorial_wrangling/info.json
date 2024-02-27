@@ -6,7 +6,7 @@
     "type": "v3",
     "singleVariant": true,
     "workspaceOptions": {
-        "image": "prairielearn/workspace-jupyterlab",
+        "image": "prairielearn/workspace-jupyterlab:latest",
         "port": 8080,
         "home": "/home/jovyan",
         "args": "--auth none"
