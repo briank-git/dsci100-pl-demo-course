@@ -1,0 +1,14 @@
+{
+    "uuid": "df5520f3-b27d-4527-a3fd-6393067aa474",
+    "title": "Tutorial Wrangling Demo",
+    "topic": "Autograder",
+    "tags": [],
+    "type": "v3",
+    "singleVariant": true,
+    "workspaceOptions": {
+        "image": "ubcdsci/r-dsci-100:9b29d51bb202",
+        "port": 8080,
+        "home": "/home/jovyan/work",
+        "args": "--auth none"
+    }
+}
