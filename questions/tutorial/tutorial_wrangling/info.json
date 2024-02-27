@@ -8,7 +8,6 @@
     "workspaceOptions": {
         "image": "ubcdsci/r-dsci-100:9b29d51bb202",
         "port": 8080,
-        "home": "/home/jovyan/work",
-        "args": "--auth none"
+        "home": "/home/jovyan/work"
     }
 }
