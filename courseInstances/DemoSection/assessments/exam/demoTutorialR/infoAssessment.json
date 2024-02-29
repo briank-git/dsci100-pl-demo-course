@@ -1,0 +1,14 @@
+{
+    "uuid": "ca79f95c-a788-45dc-b888-cbdd8ff72aa4",
+    "type": "Tutorial",
+    "title": "Tutorial using workspaces",
+    "set": "Tutorial",
+    "number": "1",
+    "zones": [
+        {
+            "questions": [
+              {"id": "tutorial/tutorial_wrangling",       "points": 1, "maxPoints": 5}
+            ]
+        }
+    ]
+}

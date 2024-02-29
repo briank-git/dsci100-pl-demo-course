@@ -8,7 +8,6 @@
     "workspaceOptions": {
         "image": "prairielearn/workspace-jupyterlab:latest",
         "port": 8080,
-        "home": "/home/jovyan",
-        "args": "--auth none"
+        "home": "/home/jovyan"
     }
 }
