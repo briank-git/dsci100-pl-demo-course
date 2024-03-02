@@ -16,7 +16,7 @@
     "zones": [
         {
             "questions": [
-              {"id": "tutorial/tutorial_wrangling",       "points": 1, "maxPoints": 5}
+              {"id": "tutorial/tutorial_wrangling",       "points": 1}
             ]
         }
     ]
