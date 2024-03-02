@@ -9,6 +9,7 @@
         "image": "prairielearn/workspace-jupyterlab:latest",
         "port": 8080,
         "home": "/home/jovyan",
+        "rewriteUrl": false,
         "enableNetworking": true
     }
 }
