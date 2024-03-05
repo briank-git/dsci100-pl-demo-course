@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  pl:
+    image: prairielearn/prairielearn:latest
+    ports:
+      - 3000:3000
+      - 8081:8081
+    volumes:
+      - postgres:/var/postgres
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${HOME}/pl_ag_jobs:/jobs
+      - ./config.json:/PrairieLearn/config.json
+      - /home/stty2u/.ssh:/root/.ssh
+      - /home/stty2u/PLCourses/dsci100-pl-demo-course/:/course/
+
+    container_name: pl
+    environment:
+      - HOST_JOBS_DIR=${HOME}/pl_ag_jobs
+      - NODE_ENV=production
+
+volumes:
+  postgres:

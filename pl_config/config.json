@@ -1,0 +1,14 @@
+{
+  "googleClientId": "CLIENT ID",
+  "googleClientSecret": "CLIENT SECRET",
+  "googleRedirectUrl": "https://pl-test.stat.ubc.ca/pl/oauth2callback",
+  "hasOauth": true,
+  "serverCanonicalHost": "https://pl-test.stat.ubc.ca",
+  "workspaceStartTimeoutSec": 120,
+  "secretKey": "SECRET KEY",
+  "filesRoot": "../filesRoot",
+  "workspaceDevHostHostname": "pl-test.stat.ubc.ca",
+  "workspaceDevContainerHostname": "pl-test.stat.ubc.ca",
+  "workspaceJobsDirectoryOwnerUid": 1000,
+  "workspaceJobsDirectoryOwnerGid": 100
+}
