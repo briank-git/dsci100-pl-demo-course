@@ -87,8 +87,9 @@ Is it possible to use R or just python?
 
 ## Demo Workspace (Tutorial) Notes
 - Multiple code references to AWS services (s3, ec2), currently workspace host is running locally in a dev mode setup not meant for many users (maybe ~100 max) and scaling to run hundreds of workspaces using only our hardware may require some changes to PL code, research needed
-- Currently issue with uids not matching between host and workspace (i.e. jupyterlab), permission denied when trying to save, create, rename
+- FIXED: Issue with uids not matching between host and workspace (i.e. jupyterlab), permission denied when trying to save, create, rename
 	- Workspace Docker volumes are created with root ownership
+	- Set `"workspaceJobsDirectoryOwnerUid": 1000, "workspaceJobsDirectoryOwnerGid": 100` in `config.json` (jovyan:users)
 - Configuration barely documented (had to dig into code to figure out/debug certain config options)
 - Potentially will need a custom autograder
 
