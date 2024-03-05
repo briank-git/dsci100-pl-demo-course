@@ -83,7 +83,7 @@ Is it possible to use R or just python?
 - Otherwise writing autograder tests in PrairieLearn is relatively straightforward and similar to tests in current worksheets and tutorials
 - Appears that manual grading is done by picking a submission from a question's manual grading queue, one queue per manual graded question
 - Able to easily share questions that are language agnostic between Python and R exams
-- Scheduling exams requires manual editing of a JSON file and order matters if certain students need a different exam time
+- Scheduling exams requires manual editing of a JSON file and order of access rules matters if certain students need a different exam time
 
 ## Demo Workspace (Tutorial) Notes
 - Multiple code references to AWS services (s3, ec2), currently workspace host is running locally in a dev mode setup not meant for many users (maybe ~100 max) and scaling to run hundreds of workspaces using only our hardware may require some changes to PL code, research needed
