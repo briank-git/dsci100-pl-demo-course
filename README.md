@@ -74,6 +74,7 @@ Is it possible to use R or just python?
 - Documentation for self-hosting is light overall and no support is available
 
 ## Demo Exam Notes
+- Currently uses Google O-auth 
 - Lockdown Browser seems to work when a link to PL is embedded in a LDB enabled Canvas quiz which points directly at the demo exam without any extra redirects. If students have to be redirected to login through UBC, it might throw an error and close itself.
 	- The error: ```Lockdown Browser does not support switching from one learning system to another in a single session...```
 - Built in R autograder does not output plots in feedback natively
@@ -82,9 +83,12 @@ Is it possible to use R or just python?
 - Otherwise writing autograder tests in PrairieLearn is relatively straightforward and similar to tests in current worksheets and tutorials
 - Appears that manual grading is done by picking a submission from a question's manual grading queue, one queue per manual graded question
 - Able to easily share questions that are language agnostic between Python and R exams
+- Scheduling exams requires manual editing of a JSON file and order matters if certain students need a different exam time
 
 ## Demo Workspace (Tutorial) Notes
 - Multiple code references to AWS services (s3, ec2), currently workspace host is running locally in a dev mode setup not meant for many users (maybe ~100 max) and scaling to run hundreds of workspaces using only our hardware may require some changes to PL code, research needed
 - Currently issue with uids not matching between host and workspace (i.e. jupyterlab), permission denied when trying to save, create, rename
-- Configuration barely documented (had to dig into code to figure out certain config options)
-- Need to write custom autograder
+	- Workspace Docker volumes are created with root ownership
+- Configuration barely documented (had to dig into code to figure out/debug certain config options)
+- Potentially will need a custom autograder
+
