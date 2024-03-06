@@ -84,9 +84,9 @@ Is it possible to use R or just python?
 - Appears that manual grading is done by picking a submission from a question's manual grading queue, one queue per manual graded question
 - Able to easily share questions that are language agnostic between Python and R exams
 - Scheduling exams requires manual editing of a JSON file and order of access rules matters if certain students need a different exam time
-- Allow for unlimited code question attempts?
-- Way to hide grade after they answer?
-- Additional Q's:
+- TODO: Allow for unlimited code question attempts?
+- TODO: Way to hide grade after they answer?
+- TODO: Additional Q's:
 	- a question where the students can get autograded immediately and see the result, but where they can run their code as much as they want (and see its output) before hitting "grade" officially
 	- a question where the students don't see their grading result immediately. they can run their code as much as they like, and see the output, but they can't see the grading result until later
 
@@ -97,4 +97,4 @@ Is it possible to use R or just python?
 	- Set `"workspaceJobsDirectoryOwnerUid": 1000, "workspaceJobsDirectoryOwnerGid": 100` in `config.json` (jovyan:users)
 - Configuration barely documented (had to dig into code to figure out/debug certain config options)
 - Potentially will need a custom autograder
-- Workspaces are not persistent?
+- TODO: Workspaces are not persistent?
